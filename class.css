@@ -1,115 +1,130 @@
 body{
-    margin: 0;
-    text-align: center;
-    font-family: 'Merriweather', serif;
     
+        padding: 0;
+        margin:0;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.sp{
+    color:#127575
 }
 .top-container{
     background-color:#EAF6F6;
+    color:#66BFBF;
+    padding-top:100px ;
     position: relative;
-    padding-top: 100px;
+}
+hr{
+    border-style:dotted none none;
+    border-color: grey;
+    border-width:5px;
+    width:5%
 }
 h1{
-    font-size:5.625rem;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5.625rem;
     margin:50px auto 0 auto;
-    font-family: 'Satisfy', cursive;
-    color:  #66BFBF;
-    line-height: 2;
+    line-height: 2;   
 }
+
 h2{
-    color:  #66BFBF;
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5rem;
-    font-weight: normal;
+    color:#66BFBF;
 }
 h3{
     font-family: 'Montserrat', sans-serif;
-    color: #11999E;
-}
-hr{
-    border-color: #66BFBF;
-    border-style:dotted none none;
-    width:5%;
-    border-width: 5px;
-}
-a{
-    color: #11999E;
+    color:#66BFBF;
 }
 p{
+    line-height: 2;
     color:#40514E;
 }
 .top-cloud{
-    position: absolute;
-    right:300px;
-    top:50px
+   position: absolute;
+   top:40px ;
+   right: 190px;
 }
 .bottom-cloud{
     position: absolute;
-    left:300px;
+    left:250px;
     bottom: 300px;
 }
-.middle-container{
-
+.img1{
+    padding-bottom:30px;
 }
-.bottom-container{
-    background-color:#66BFBF ;
-    height:150px;
-    margin-top:100px
+.intro{
+    width:30%;
+    margin:30px auto;
+}
+.profile{
+    margin:50px auto;
+}
 
+.bottom-container{
+   background-color: #66BFBF;
+   height:90px
+}
+.myskill1{
+   width:15%;
+   float:left;
+   margin-right:40px;
+}
+.myskill2{
+    width:15%;
+   float:right;
+   margin-left:40px
 }
 .skillrow{
-    width:30%;
-    float: left;
-    margin-right:50px;
-}
-.skill-row{
     width:50%;
-    margin:100px auto;
     text-align: left;
-    line-height: 2;
+    margin:60px auto;
+    
 }
-.skillfor{
-    width:30%;
-    float: right;
-    margin-right:50px
+.Skill{
+    padding-top:90px ;
+}
+.contact-me{
+    margin:50px 
+}
+.yeah{
+    width:40%;
+    margin:40px auto 50px;
+}
+.hi{
+    padding-bottom: 30px;
 }
 .btn{
-    background: #11cdd4;
-    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
-    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
-    background-image: linear-gradient(to bottom,#11cdd4, #11999e);
-    color:#ffffff;
-    font-family: 'Arial';
-    -webkit-border-radius: 8;
-  -moz-border-radius: 8;
-  border-radius: 8px;
-  padding:10px 20px 10px 20px;
-  text-decoration: none;
+    background:#11cdd4;
+    background-image: -webkit-linear-gradient(top,#11cdd4,#11999e);
+    background-image: -moz-linear-gradient(top,#11cdd4,#11999e);
+    background-image: -ms-linear-gradient(top,#11cdd4,#11999e);
+    background-image: -o-linear-gradient(top,#11cdd4,#11999e);
+    background-image: linear-gradient(to bottom,#11cdd4,#11999e);
+    text-decoration: none;
+    border-radius: 8px;
+    padding:10px 20px 10px 20px;
+    color:white;
+    font-family: 'Montssaret',sans-serif;
+    font-size: 20px;
+    
 }
 .btn:hover{
-    background: #3cb0fd;
-  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
-  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
-  text-decoration: none;
+    color:white;
+    background:#30e3cb;
+    border-color: #11cdd4;
 }
 .footer-link{
-    
-    color:#11999E;
-    text-align: center;
-    text-decoration: none;
-    padding:30px;
-    position:relative;
-    top:40px
+    padding: 12px;
+    font-size: 25px;
+    color:white;
+    transition:.4s;
+}
+.footer-link i:hover{
+    transform: scale(1.2);
+    transition: .4s;
 }
 .hey{
-    color:#EAF6F6;
-    padding-top: 50px;
-
+    color:white;
+    font-size: 9px;
+    padding-top: 10px;
 }
-
-
